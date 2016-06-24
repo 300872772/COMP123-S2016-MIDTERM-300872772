@@ -239,11 +239,15 @@ namespace COMP123_MidTermExam
             {
 
   
-                int random = this.Random.Next(1, 7);
+                int random = this.Random.Next(1, this.SetSize+1);
 
-                this.ElementList.Add(this.NumberList.(random))
-                
+                this.ElementList.Add(this.NumberList[random]);
+                this.NumberList.RemoveAt(random);
+
+
             }
+
+            this.ElementList.Sort();
         }
 
     }

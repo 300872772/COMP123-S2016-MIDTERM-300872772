@@ -42,7 +42,9 @@ namespace COMP123_MidTermExam
         // CREATE the public GenerateLottoNumbers method here ----------------
         public void GenerateLottoNumbers()
         {
-            throw new System.NotImplementedException();
+
+            this.PickElements();
+
         }
 
     }

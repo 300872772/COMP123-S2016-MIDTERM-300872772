@@ -11,7 +11,7 @@ using System.Threading.Tasks;
  * Description: This program demonstrates a game 'Console Lottery Number Picker'
  *  
  *  
- * Version: 0.0.2 - Added element list . 
+ * Version: 0.0.3 - Added generate number function . 
  */
 
 namespace COMP123_MidTermExam
