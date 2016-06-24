@@ -3,7 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//mamun
+/* 
+ * Author: Md Mamunur Rahman 
+ * Student ID: 300872772  
+ * 
+ * Date: June 24, 2016 
+ * Description: This program demonstrates a game 'Console Lottery Number Picker'
+ *  
+ *  
+ * Version: 0.0.1 -  . 
+ */
 namespace COMP123_MidTermExam
 {
     /**
@@ -31,6 +40,12 @@ namespace COMP123_MidTermExam
 
         }
 
+
+
         // CREATE the public GenerateLottoNumbers method here ----------------
+        public void GenerateLottoNumbers()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
